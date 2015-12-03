@@ -133,6 +133,18 @@ padding:10px 15px;
 display: inline-block;
 margin-right: 3px;
 }
+.section-4 .list-nav a{
+	display: block;
+	padding:5px 30px;
+	color:#555;
+	transition: all 0.5s;
+}
+.section-4 .list-nav a:hover{
+	text-decoration: none;
+	background: #0DC0C0;
+    color:#E8EDEF;
+	transform: scale(1.15);
+}
 .Portfolio p, .Portfolio ul{
 	margin-top:30px;
 }

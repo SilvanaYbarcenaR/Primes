@@ -10,6 +10,18 @@ a{
 	text-decoration: none;
 	color:white;
 }
+
+.navbar-fixed-top{
+  position: fixed;
+  right: 0;
+  left: 0;	
+  z-index: 1030;
+  background:rgba(0,0,0,0.8);
+  padding: 21px;
+  margin-bottom: 50px;
+  padding:1.4% 10%;
+
+}
 .principalview{
 	background: url(../img/background/hero.jpg);
 	background-size: cover;
@@ -275,16 +287,4 @@ margin-right: 3px;
 	.yy{
 		height: 270%;
 	}
-}
-
-.navbar-fixed-top{
-  position: fixed;
-  right: 0;
-  left: 0;	
-  z-index: 1030;
-  background:rgba(0,0,0,0.8);
-  padding: 21px;
-  margin-bottom: 50px;
-  padding:1.4% 10%;
-
 }

@@ -12,6 +12,7 @@ a{
 }
 .principalview{
 	background: url(../img/background/hero.jpg);
+	background-size: cover;
 	background-size:100% 132%;
 	height: 100%;
 	background-position: top;
@@ -201,4 +202,9 @@ margin-right: 3px;
 /**{outline: 1px solid red;}*/
 .b{
 	height: 68%;
+}
+
+@media (max-width: 921px) {
+  .section-1 .col-4{
+    width:100%;  }
 }

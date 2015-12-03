@@ -10,18 +10,6 @@ a{
 	text-decoration: none;
 	color:white;
 }
-
-.navbar-fixed-top{
-  position: fixed;
-  right: 0;
-  left: 0;	
-  z-index: 1030;
-  background:rgba(0,0,0,0.8);
-  padding: 21px;
-  margin-bottom: 50px;
-  padding:1.4% 10%;
-
-}
 .principalview{
 	background: url(../img/background/hero.jpg);
 	background-size: cover;
@@ -124,9 +112,6 @@ footer{
 .main-menu span{
 	font-size: 20px;
 	line-height: 20px;
-}
-.stickymenu{
-	position: fixed;
 }
 .section-4 .row p{
 	padding: 10px 0 !important;
@@ -254,6 +239,12 @@ margin-right: 3px;
  .principalview, .opacity_background, .head{
 	height: 120%;
 	}
+}
+@media (max-width: 367px) {
+ .btn_1, .btn_2{
+	display: none;
+	}
+}
 @media (max-width: 820px) {
   	.section-8 .col-6{
     width:100%;  }
@@ -287,4 +278,16 @@ margin-right: 3px;
 	.yy{
 		height: 270%;
 	}
+}
+
+.navbar-fixed-top{
+  position: fixed;
+  right: 0;
+  left: 0;	
+  z-index: 1030;
+  background:rgba(0,0,0,0.8);
+  padding: 21px;
+  margin-bottom: 50px;
+  padding:1.4% 10%;
+
 }

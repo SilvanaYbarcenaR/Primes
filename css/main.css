@@ -208,3 +208,11 @@ margin-right: 3px;
   .section-1 .col-4{
     width:100%;  }
 }
+@media (max-width: 992px) {
+  .section-3 .col-6{
+    width:100%;  }
+}
+@media (max-width: 600px) {
+  .section-4 .col-6{
+    width:100%;  }
+}

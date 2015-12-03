@@ -171,3 +171,6 @@ strong {
 .dark-bg{
 	background: #232C36;
 }
+.text-justify {
+  text-align: justify;
+}
